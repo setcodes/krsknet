@@ -1,5 +1,6 @@
 import { Menu } from 'lucide-react';
 import { Button } from '../ui/button';
+import { Separator } from '@/components/ui/separator';
 
 import {
 	Drawer,
@@ -11,6 +12,9 @@ import {
 	DrawerTitle,
 	DrawerTrigger,
 } from '@/components/ui/drawer';
+import Navigation from './Navigation';
+import Personal from './Personal';
+import ToggleTheme from './ToggleTheme';
 
 export default function MobileMenu() {
 	return (
@@ -25,13 +29,20 @@ export default function MobileMenu() {
 
 				<DrawerContent>
 					<DrawerHeader>
-						<DrawerTitle>11</DrawerTitle>
-						<DrawerDescription></DrawerDescription>
+						<DrawerTitle className="my-5">МЕНЮ</DrawerTitle>
+
+						<DrawerDescription>
+							<Navigation />
+							<Separator className="my-5" />
+							<Personal />
+							<ToggleTheme />
+						</DrawerDescription>
 					</DrawerHeader>
 					<DrawerFooter>
-						<Button>Submit</Button>
 						<DrawerClose>
-							<Button variant="outline">Cancel</Button>
+							<Button variant="default" className="w-full">
+								ЗАКРЫТЬ
+							</Button>
 						</DrawerClose>
 					</DrawerFooter>
 				</DrawerContent>

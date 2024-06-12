@@ -7,17 +7,17 @@ import './globals.css';
 const myFont = localFont({
 	src: [
 		{
-			path: '../assets/fonts/UniSans-Light.woff2',
+			path: '../assets/fonts/UniSansLight.woff2',
 			weight: '300',
 			style: 'light',
 		},
 		{
-			path: '../assets/fonts/UniSans-Regular.woff2',
+			path: '../assets/fonts/UniSansRegular.woff2',
 			weight: '400',
 			style: 'normal',
 		},
 		{
-			path: '../assets/fonts/UniSans-SemiBold.woff2',
+			path: '../assets/fonts/UniSansSemiBold.woff2',
 			weight: '700',
 			style: 'bold',
 		},
