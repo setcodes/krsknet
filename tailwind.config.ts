@@ -30,6 +30,7 @@ const config = {
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
+				borderKrsknet: 'hsl(var(--borderKrsknet))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',

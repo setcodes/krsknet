@@ -6,14 +6,14 @@ export default function Hero() {
 	return (
 		<div className="flex justify-center items-center mx-50">
 			<div className="flex flex-col w-12/12 sm:w6/12 gap-10 px-10">
-				<div className="text-2xl mt-10  sm:mt-0 md:text-2xl lg:text-3xl 2xl:text-5xl">
+				<h1 className="text-2xl mt-10  sm:mt-0 md:text-2xl lg:text-3xl 2xl:text-5xl">
 					ИНТЕРНЕТ В ЧАСТНОМ СЕКТОРЕ КРАСНОЯРСКОГО КРАЯ
-				</div>
-				<div className="text-1xl sm:text-2xl md:text-2xl font-light">
+				</h1>
+				<h2 className="text-1xl sm:text-2xl md:text-2xl font-light">
 					<span className="text-red-700 font-bold">KRSKNET</span>-
 					лицензированный оператор связи, предоставляющий услуги связи по
 					технологии PON [Пассивная оптическая сеть]
-				</div>
+				</h2>
 				<div className="w-50 flex justify-center sm:justify-start mb-10">
 					<Button
 						variant={'destructive'}
