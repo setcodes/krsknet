@@ -33,6 +33,7 @@
 
 		--border: 240 5.9% 90%;
 		--borderKrsknet: 0, 0%, 8%;
+		--borderWhiteOrBlack: 0, 0%, 8%;
 		--input: 240 5.9% 90%;
 		--ring: 240 10% 3.9%;
 
@@ -69,6 +70,7 @@
 
 		--border: 240 3.7% 15.9%;
 		--borderKrsknet: 0, 0%, 100%;
+		--borderWhiteOrBlack: 0, 0%, 50%;
 		--input: 240 3.7% 15.9%;
 		--ring: 240 4.9% 83.9%;
 	}

@@ -19,6 +19,7 @@ const config = {
 			'4xl': '2.441rem',
 			'5xl': '3.052rem',
 			'6xl': '4.00rem',
+			'7xl': '6.00rem',
 		},
 		container: {
 			center: true,
@@ -31,6 +32,7 @@ const config = {
 			colors: {
 				border: 'hsl(var(--border))',
 				borderKrsknet: 'hsl(var(--borderKrsknet))',
+				borderWhiteOrBlack: 'hsl(var(--borderWhiteOrBlack))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
