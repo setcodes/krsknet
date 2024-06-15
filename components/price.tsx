@@ -6,11 +6,11 @@ import Image from 'next/image';
 export default function Price() {
 	return (
 		<>
-			<div className="flex flex-col justify-center gap-5 mt-10">
-				<h3 className="flex justify-center items-center text-2xl md:text-4xl my-20 ">
+			<div className="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20">
+				<h3 className="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold">
 					ТАРИФЫ
 				</h3>
-				<div className="flex flex-col lg:flex-row w-full gap-5">
+				<div className="flex flex-col lg:flex-row w-full justify-center gap-5">
 					<div className="flex flex-col w-full gap-5 lg:gap-10 border border-borderKrsknet rounded-xl py-10 px-10 w-12/12 lg:w-4/12">
 						<div className="flex justify-between mb-5">
 							<div className="text-1xl lg:text-2xl">PON-15</div>
@@ -56,7 +56,7 @@ export default function Price() {
 							ПОДКЛЮЧИТЬ
 						</Button>
 					</div>
-					<div className="flex flex-col w-full gap-10 rounded-2xl py-10 px-10 w-12/12 lg:w-4/12 bg-gradient-to-b from-red-700 to-zinc-900 to-90% ">
+					<div className="flex flex-col w-full gap-5 lg:gap-10 rounded-2xl py-10 px-10 w-12/12 lg:w-4/12 bg-gradient-to-b from-red-700 to-zinc-800 to-90% ">
 						<div className="flex justify-between items-center mb-5">
 							<div className="text-1xl lg:text-2xl text-white">PON-25</div>
 							<Badge
@@ -152,6 +152,11 @@ export default function Price() {
 							ПОДКЛЮЧИТЬ
 						</Button>
 					</div>
+				</div>
+				<div className="flex  justify-center text-center text-2xl font-light">
+					Все представленные тарифы, не являются офертой и могут отличаться от
+					условий, в зависимости от точки подключения и удаленности населенного
+					пункта
 				</div>
 			</div>
 		</>

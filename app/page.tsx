@@ -5,6 +5,9 @@ import Header from '@/components/header';
 import Hero from '@/components/hero';
 import HowWeWork from '@/components/how-we-work';
 import Price from '@/components/price';
+import VideoControl from '@/components/video-control';
+import VideoControl2 from '@/components/video-control2';
+import News from '@/components/news';
 
 export default function Main() {
 	return (
@@ -14,6 +17,8 @@ export default function Main() {
 				<Hero />
 				<HowWeWork />
 				<Price />
+				<VideoControl2 />
+				<News />
 			</div>
 		</>
 	);
