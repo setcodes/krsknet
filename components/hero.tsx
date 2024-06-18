@@ -9,7 +9,7 @@ export default function Hero() {
 				<h1 className="mb-55 text-2xl sm:mt-20 md:text-3xl 2xl:text-6xl font-bold w-12/12 lg:w-8/12 mt-10">
 					ИНТЕРНЕТ В ЧАСТНОМ СЕКТОРЕ КРАСНОЯРСКОГО КРАЯ
 				</h1>
-				<h2 className="text-1xl w-12/12 lg:w-6/12 sm:text-2xl  2xl:text-4xl font-light">
+				<h2 className="text-xl w-12/12 lg:w-6/12 sm:text-2xl  2xl:text-4xl font-light">
 					<span className="text-red-700 font-bold">KRSKNET</span>-
 					лицензированный оператор связи, предоставляющий услуги связи по
 					технологии PON [Пассивная оптическая сеть]

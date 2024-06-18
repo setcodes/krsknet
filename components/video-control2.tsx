@@ -12,7 +12,7 @@ export default function VideoControl2() {
 				</h3>
 				<div className="flex flex-col h-full relative p-0 xl:py-44">
 					<div className="flex flex-col justify-center items-center text-center h-full z-10">
-						<div className="flex text-2xl lg:text-3xl font-light mt-10 w-9/12 xl:w-8/12">
+						<div className="flex  text-2xl lg:text-3xl font-light mt-10 w-9/12 xl:w-8/12">
 							<span>
 								Компания{' '}
 								<span className="text-red-700 font-bold">KRSKNET </span>
@@ -32,7 +32,7 @@ export default function VideoControl2() {
 						<div className="flex justify-center items-center">
 							<Button
 								variant={'destructive'}
-								className="text-2xl  rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-20 mt-10 "
+								className="text-1xl md:text-2xl  rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-5 md:px-20 mt-10 "
 							>
 								<Cctv className="mr-5 h-10 w-10" />
 								ПОДКЛЮЧИТЬ

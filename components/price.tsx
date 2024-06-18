@@ -153,7 +153,7 @@ export default function Price() {
 						</Button>
 					</div>
 				</div>
-				<div className="flex  justify-center text-center text-2xl font-light">
+				<div className="flex  justify-center text-center text-xl lg:text-2xl font-light">
 					Все представленные тарифы, не являются офертой и могут отличаться от
 					условий, в зависимости от точки подключения и удаленности населенного
 					пункта

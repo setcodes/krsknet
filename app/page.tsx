@@ -8,6 +8,8 @@ import Price from '@/components/price';
 import VideoControl from '@/components/video-control';
 import VideoControl2 from '@/components/video-control2';
 import News from '@/components/news';
+import Stocks from '@/components/stocks';
+import Services from '@/components/services';
 
 export default function Main() {
 	return (
@@ -19,6 +21,8 @@ export default function Main() {
 				<Price />
 				<VideoControl2 />
 				<News />
+				<Stocks />
+				<Services />
 			</div>
 		</>
 	);
