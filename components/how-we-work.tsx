@@ -1,10 +1,14 @@
+import { useTheme } from 'next-themes';
 import Image from 'next/image';
 
 export default function HowWeWork() {
 	return (
 		<>
 			<div className="flex flex-col justify-center gap-5 ">
-				<h3 className="flex justify-center items-center text-3xl md:text-5xl my-20 font-bold">
+				<h3
+					id="HWW"
+					className="flex justify-center items-center text-3xl md:text-5xl my-20 font-bold"
+				>
 					КАК ПОДКЛЮЧИТЬ ИНТЕРНЕТ
 				</h3>
 				<div className="flex flex-col lg:flex-row w-full gap-5">
@@ -16,13 +20,23 @@ export default function HowWeWork() {
 							</div>
 						</div>
 						<div>
-							<Image
-								src={'/img/step1.png'}
-								alt="logo"
-								width={200}
-								height={200}
-								sizes="(min-width: 200px)"
-							/>
+							{useTheme().theme === 'light' ? (
+								<Image
+									src={'/img/step1-b.svg'}
+									alt="Проверьте свой адрес"
+									width={200}
+									height={200}
+									sizes="(min-width: 200px)"
+								/>
+							) : (
+								<Image
+									src={'/img/step1-w.svg'}
+									alt="Проверьте свой адрес"
+									width={200}
+									height={200}
+									sizes="(min-width: 200px)"
+								/>
+							)}
 						</div>
 					</div>
 					<div className="flex flex-col justify-center items-center md:flex-row gap-5 w-12/12 md:w-6-12 w-full border border-borderKrsknet rounded-lg py-10 px-10">
@@ -33,13 +47,23 @@ export default function HowWeWork() {
 							</div>
 						</div>
 						<div>
-							<Image
-								src={'/img/step2.png'}
-								alt="logo"
-								width={200}
-								height={200}
-								sizes="(min-width: 200px)"
-							/>
+							{useTheme().theme === 'light' ? (
+								<Image
+									src={'/img/step2-b.svg'}
+									alt="Ознакомьтесь c тарифами"
+									width={200}
+									height={200}
+									sizes="(min-width: 200px)"
+								/>
+							) : (
+								<Image
+									src={'/img/step2-w.svg'}
+									alt="Ознакомьтесь c тарифами"
+									width={200}
+									height={200}
+									sizes="(min-width: 200px)"
+								/>
+							)}
 						</div>
 					</div>
 				</div>
@@ -52,13 +76,23 @@ export default function HowWeWork() {
 							</div>
 						</div>
 						<div>
-							<Image
-								src={'/img/step3.png'}
-								alt="logo"
-								width={200}
-								height={200}
-								sizes="(min-width: 200px)"
-							/>
+							{useTheme().theme === 'light' ? (
+								<Image
+									src={'/img/step3-b.svg'}
+									alt="Заполните и отправьте заявку"
+									width={200}
+									height={200}
+									sizes="(min-width: 200px)"
+								/>
+							) : (
+								<Image
+									src={'/img/step3-w.svg'}
+									alt="Заполните и отправьте заявку"
+									width={200}
+									height={200}
+									sizes="(min-width: 200px)"
+								/>
+							)}
 						</div>
 					</div>
 					<div className="flex flex-col justify-center items-center md:flex-row gap-5 w-12/12 md:w-6-12 w-full border border-borderKrsknet rounded-lg py-10 px-10">
@@ -69,13 +103,23 @@ export default function HowWeWork() {
 							</div>
 						</div>
 						<div>
-							<Image
-								src={'/img/step4.png'}
-								alt="logo"
-								width={200}
-								height={200}
-								sizes="(min-width: 200px)"
-							/>
+							{useTheme().theme === 'light' ? (
+								<Image
+									src={'/img/step4-b.svg'}
+									alt="Ожидайте подключения"
+									width={200}
+									height={200}
+									sizes="(min-width: 200px)"
+								/>
+							) : (
+								<Image
+									src={'/img/step4-w.svg'}
+									alt="Ожидайте подключения"
+									width={200}
+									height={200}
+									sizes="(min-width: 200px)"
+								/>
+							)}
 						</div>
 					</div>
 				</div>

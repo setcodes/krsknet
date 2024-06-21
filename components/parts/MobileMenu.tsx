@@ -15,6 +15,7 @@ import {
 import Navigation from './Navigation';
 import Personal from './Personal';
 import ToggleTheme from './ToggleTheme';
+import NavigationCol from './navigationCol';
 
 export default function MobileMenu() {
 	return (
@@ -29,11 +30,11 @@ export default function MobileMenu() {
 
 				<DrawerContent>
 					<DrawerHeader>
-						<DrawerTitle className="my-5">МЕНЮ</DrawerTitle>
+						<DrawerTitle className="my-5 text-3xl">МЕНЮ</DrawerTitle>
 
 						<DrawerDescription>
-							<Navigation />
-							<Separator className="my-5" />
+							<NavigationCol />
+							<div className="border-b-2 border-borderWhiteOrBlack my-10"></div>
 							<Personal />
 							<ToggleTheme />
 						</DrawerDescription>

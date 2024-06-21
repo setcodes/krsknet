@@ -14,7 +14,10 @@ export default function Stocks() {
 	return (
 		<>
 			<div className="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20">
-				<h3 className="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold">
+				<h3
+					id="STOCKS"
+					className="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold"
+				>
 					АКЦИИ
 				</h3>
 				<div className="flex justify-center items-center">

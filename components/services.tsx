@@ -5,7 +5,10 @@ export default function Services() {
 	return (
 		<>
 			<div className="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20">
-				<h3 className="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold">
+				<h3
+					id="SERVICES"
+					className="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold"
+				>
 					УСЛУГИ
 				</h3>
 				<div className="flex justify-center">
@@ -40,11 +43,11 @@ export default function Services() {
 										Настройка роутера при подключении
 									</div>
 									<div className="border-b-4 border-dotted border-borderWhiteOrBlack w-full mx-10"></div>
-									<div className="text-2xl text-red-700 font-bold w-fit flex justify-center md:justify-end">
+									<div className="text-2xl text-red-700 font-bold w-fit flex justify-center whitespace-nowrap md:justify-end">
 										Бесплатно
 									</div>
 								</div>
-								<div className="flex flex-col md:flex-row justify-between items-center w-full px-5 md:px-20 gap-2">
+								<div className="flex flex-col md:flex-row justify-between items-center w-full px-5 md:px-20 gap-2 ">
 									<div className="text-2xl w-fit flex whitespace-nowrap justify-center md:justify-start">
 										Настройка роутера
 									</div>
@@ -54,8 +57,73 @@ export default function Services() {
 									</div>
 								</div>
 							</TabsContent>
-							<TabsContent value="change">1</TabsContent>
-							<TabsContent value="build">2</TabsContent>
+							<TabsContent value="change">
+								<div className="flex flex-col md:flex-row justify-between items-center w-full px-5 md:px-20 gap-2 mb-10">
+									<div className="text-2xl w-fit flex whitespace-normal md:whitespace-nowrap justify-center md:justify-start">
+										Замена абонентского устройства (ONU) по вине абонента
+									</div>
+									<div className="border-b-4 border-dotted border-borderWhiteOrBlack w-full mx-10"></div>
+									<div className="text-2xl text-red-700 font-bold w-fit flex justify-center whitespace-nowrap md:justify-end">
+										2500 руб.
+									</div>
+								</div>
+								<div className="flex flex-col md:flex-row justify-between items-center w-full px-5 md:px-20 gap-2 mb-10">
+									<div className="text-2xl w-fit flex whitespace-nowrap justify-center md:justify-start">
+										Замена блока питания на ONU по вине абонента
+									</div>
+									<div className="border-b-4 border-dotted border-borderWhiteOrBlack w-full mx-10"></div>
+									<div className="text-2xl text-red-700 font-bold w-fit flex whitespace-normal md:whitespace-nowrap  justify-center md:justify-end">
+										500 руб.
+									</div>
+								</div>
+								<div className="flex flex-col md:flex-row justify-between items-center w-full px-5 md:px-20 gap-2">
+									<div className="text-2xl w-fit flex whitespace-nowrap justify-center md:justify-start">
+										Замена коннектора
+									</div>
+									<div className="border-b-4 border-dotted border-borderWhiteOrBlack w-full mx-10"></div>
+									<div className="text-2xl text-red-700 font-bold w-fit flex whitespace-normal md:whitespace-nowrap  justify-center md:justify-end">
+										150 руб.
+									</div>
+								</div>
+							</TabsContent>
+							<TabsContent value="build">
+								<div className="flex flex-col md:flex-row justify-between items-center w-full px-5 md:px-20 gap-2 mb-10">
+									<div className="text-2xl w-fit flex whitespace-normal md:whitespace-nowrap justify-center md:justify-start">
+										Монтаж оптического кабеля FTTH за 1 метр
+									</div>
+									<div className="border-b-4 border-dotted border-borderWhiteOrBlack w-full mx-10"></div>
+									<div className="text-2xl text-red-700 font-bold w-fit flex justify-center whitespace-nowrap md:justify-end">
+										20 руб.
+									</div>
+								</div>
+								<div className="flex flex-col md:flex-row justify-between items-center w-full px-5 md:px-20 gap-2 mb-10">
+									<div className="text-2xl w-fit flex whitespace-nowrap justify-center md:justify-start">
+										Стоимость оптического кабеля FTTH за 1 метр
+									</div>
+									<div className="border-b-4 border-dotted border-borderWhiteOrBlack w-full mx-10"></div>
+									<div className="text-2xl text-red-700 font-bold w-fit flex whitespace-normal md:whitespace-nowrap  justify-center md:justify-end">
+										17 руб.
+									</div>
+								</div>
+								<div className="flex flex-col md:flex-row justify-between items-center w-full px-5 md:px-20 gap-2 mb-10">
+									<div className="text-2xl w-fit flex whitespace-nowrap justify-center md:justify-start">
+										Монтаж кабеля UTP за 1 метр
+									</div>
+									<div className="border-b-4 border-dotted border-borderWhiteOrBlack w-full mx-10"></div>
+									<div className="text-2xl text-red-700 font-bold w-fit flex whitespace-normal md:whitespace-nowrap  justify-center md:justify-end">
+										20 руб.
+									</div>
+								</div>
+								<div className="flex flex-col md:flex-row justify-between items-center w-full px-5 md:px-20 gap-2">
+									<div className="text-2xl w-fit flex whitespace-nowrap justify-center md:justify-start">
+										Стоимость кабеля UTP за 1 метр
+									</div>
+									<div className="border-b-4 border-dotted border-borderWhiteOrBlack w-full mx-10"></div>
+									<div className="text-2xl text-red-700 font-bold w-fit flex whitespace-normal md:whitespace-nowrap  justify-center md:justify-end">
+										20 руб.
+									</div>
+								</div>
+							</TabsContent>
 						</div>
 					</Tabs>
 				</div>

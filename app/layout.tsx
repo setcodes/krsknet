@@ -39,9 +39,14 @@ export default function RootLayout({
 }>) {
 	return (
 		<>
-			<html lang="en" suppressHydrationWarning>
+			<html
+				lang="ru"
+				suppressHydrationWarning
+				className={myFont.className}
+				style={{ scrollBehavior: 'smooth' }}
+			>
 				<head />
-				<body className={myFont.className}>
+				<body>
 					<ThemeProvider
 						attribute="class"
 						defaultTheme="system"

@@ -1,6 +1,7 @@
 import { Cctv } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from './ui/button';
+import { useTheme } from 'next-themes';
 
 export default function VideoControl2() {
 	return (
@@ -40,18 +41,33 @@ export default function VideoControl2() {
 						</div>
 					</div>
 					<div className="hidden xl:flex absolute left-0 right-0 bottom-0 top-0 z-0">
-						<Image
-							src={'/img/video3.png'}
-							alt="logo"
-							width={150}
-							height={150}
-							style={{
-								width: '100%',
-								height: '100%',
-								objectFit: 'fill',
-							}}
-							sizes="100vw"
-						/>
+						{useTheme().theme === 'light' ? (
+							<Image
+								src={'/img/video-w.svg'}
+								alt="logo"
+								width={150}
+								height={150}
+								style={{
+									width: '100%',
+									height: '100%',
+									objectFit: 'fill',
+								}}
+								sizes="100vw"
+							/>
+						) : (
+							<Image
+								src={'/img/video-b.svg'}
+								alt="logo"
+								width={150}
+								height={150}
+								style={{
+									width: '100%',
+									height: '100%',
+									objectFit: 'fill',
+								}}
+								sizes="100vw"
+							/>
+						)}
 					</div>
 				</div>
 			</div>

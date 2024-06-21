@@ -6,19 +6,19 @@ export default function Logo() {
 		<>
 			{useTheme().theme === 'light' ? (
 				<Image
-					src={'/img/logo.png'}
-					alt="logo"
-					width={250}
+					src={'/img/logo-black.svg'}
+					alt="KRSKNET"
+					width={200}
 					height={100}
-					sizes="(max-width: 768px) 100vw, 33vw"
+					// sizes="(max-width: 768px) 100vw, 33vw"
 				/>
 			) : (
 				<Image
-					src={'/img/logo.png'}
-					alt="logo"
-					width={250}
+					src={'/img/logo-white.svg'}
+					alt="KRSKNET"
+					width={200}
 					height={100}
-					sizes="(max-width: 768px) 100vw, 33vw"
+					// sizes="(max-width: 768px) 100vw, 33vw"
 				/>
 			)}
 		</>
