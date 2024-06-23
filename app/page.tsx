@@ -7,7 +7,7 @@ import * as React from 'react';
 // import Price from '@/components/price';
 // import VideoControl from '@/components/video-control';
 // import VideoControl2 from '@/components/video-control2';
-import News from '@/components/news';
+// import News from '@/components/news';
 import Stocks from '@/components/stocks';
 import Services from '@/components/services';
 import QA from '@/components/qa';
@@ -20,6 +20,9 @@ const HowWeWork = dynamic(() => import('@/components/how-we-work'), {
 });
 const Price = dynamic(() => import('@/components/price'), { ssr: false });
 const VideoControl2 = dynamic(() => import('@/components/video-control2'), {
+	ssr: false,
+});
+const News = dynamic(() => import('@/components/news'), {
 	ssr: false,
 });
 

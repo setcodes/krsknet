@@ -27,7 +27,7 @@ export default function Footer() {
 					</h3>
 					<div className="flex gap-5 mt-10">
 						<div>
-							<Link href={'#'}>
+							<Link href={'https://t.me/+-r49PLzVattiY2Qy'} target="_blank">
 								<Image
 									src={'/img/telegram.png'}
 									alt="hero"
@@ -37,7 +37,10 @@ export default function Footer() {
 							</Link>
 						</div>
 						<div>
-							<Link href={'#'}>
+							<Link
+								href={'https://vk.com/krsk_net?t2fs=79c72803eda9fde8fa_2'}
+								target="_blank"
+							>
 								<Image
 									src={'/img/vkontakte.png'}
 									alt="hero"

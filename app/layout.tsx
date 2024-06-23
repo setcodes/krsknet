@@ -41,7 +41,7 @@ export default function RootLayout({
 		<>
 			<html
 				lang="ru"
-				suppressHydrationWarning
+				suppressHydrationWarning={true}
 				className={myFont.className}
 				style={{ scrollBehavior: 'smooth' }}
 			>

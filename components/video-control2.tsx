@@ -2,6 +2,7 @@ import { Cctv } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from './ui/button';
 import { useTheme } from 'next-themes';
+import DialogForm from './parts/DialogForm';
 
 export default function VideoControl2() {
 	return (
@@ -31,13 +32,17 @@ export default function VideoControl2() {
 							</span>
 						</div>
 						<div className="flex justify-center items-center">
-							<Button
-								variant={'destructive'}
-								className="text-1xl md:text-2xl  rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-5 md:px-20 mt-10 "
-							>
-								<Cctv className="mr-5 h-10 w-10" />
-								ПОДКЛЮЧИТЬ
-							</Button>
+							<DialogForm
+								button={
+									<Button
+										variant={'destructive'}
+										className="text-1xl md:text-2xl  rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-5 md:px-20 mt-10 "
+									>
+										<Cctv className="mr-5 h-10 w-10" />
+										ПОДКЛЮЧИТЬ
+									</Button>
+								}
+							></DialogForm>
 						</div>
 					</div>
 					<div className="hidden xl:flex absolute left-0 right-0 bottom-0 top-0 z-0">
