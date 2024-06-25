@@ -29,7 +29,7 @@ export default function Footer() {
 						<div>
 							<Link href={'https://t.me/+-r49PLzVattiY2Qy'} target="_blank">
 								<Image
-									src={'./img/telegram.png'}
+									src={'./img/telegram.svg'}
 									alt="telegram"
 									width={50}
 									height={50}
@@ -42,7 +42,7 @@ export default function Footer() {
 								target="_blank"
 							>
 								<Image
-									src={'./img/vkontakte.png'}
+									src={'./img/vkontakte.svg'}
 									alt="vk"
 									width={50}
 									height={50}
@@ -57,7 +57,7 @@ export default function Footer() {
 				<div className="w-full flex flex-col gap-10 lg:w-2/3 xl:w-2/3">
 					<div className="flex items-center gap-5">
 						<Image
-							src={'./img/location-target.png'}
+							src={'./img/location-target.svg'}
 							alt="Регион"
 							width={50}
 							height={50}
@@ -69,7 +69,7 @@ export default function Footer() {
 					</div>
 					<div className="flex items-center gap-5">
 						<Image
-							src={'./img/clock-target.png'}
+							src={'./img/clock-target.svg'}
 							alt="Время работы"
 							width={50}
 							height={50}
@@ -81,7 +81,7 @@ export default function Footer() {
 					</div>
 					<div className="flex items-center gap-5">
 						<Image
-							src={'./img/phone-target.png'}
+							src={'./img/phone-target.svg'}
 							alt="Телефон"
 							width={50}
 							height={50}

@@ -31,7 +31,7 @@ export default function Hero() {
 					<div className="flex flex-row gap-3 lg:gap-10">
 						<div className="flex gap-3 items-center">
 							<Image
-								src={'./img/on-button.png'}
+								src={'./img/on-button.svg'}
 								alt="КАЧЕСТВО"
 								width={50}
 								height={50}
@@ -40,7 +40,7 @@ export default function Hero() {
 						</div>
 						<div className="flex gap-3 items-center">
 							<Image
-								src={'./img/on-button.png'}
+								src={'./img/on-button.svg'}
 								alt="НАДЕЖНОСТЬ"
 								width={50}
 								height={50}

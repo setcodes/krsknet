@@ -41,7 +41,7 @@ export default function Stocks() {
 									<div className="flex flex-col lg:flex-row justify-center items-center text-center md:text-left gap-10 mb-10">
 										<div>
 											<Image
-												src={'./img/handshake.png'}
+												src={'./img/handshake.svg'}
 												alt="акция"
 												width={150}
 												height={150}
@@ -72,7 +72,7 @@ export default function Stocks() {
 									<div className="flex flex-col lg:flex-row justify-center items-center text-center md:text-left gap-10 mb-10">
 										<div>
 											<Image
-												src={'./img/handshake.png'}
+												src={'./img/handshake.svg'}
 												alt="акция"
 												width={150}
 												height={150}
