@@ -48,8 +48,8 @@ export default function VideoControl2() {
 					<div className="hidden xl:flex absolute left-0 right-0 bottom-0 top-0 z-0">
 						{useTheme().theme === 'light' ? (
 							<Image
-								src={'/img/video-w.svg'}
-								alt="logo"
+								src={'./img/video-w.svg'}
+								alt="видеонаблюдение"
 								width={150}
 								height={150}
 								style={{
@@ -61,8 +61,8 @@ export default function VideoControl2() {
 							/>
 						) : (
 							<Image
-								src={'/img/video-b.svg'}
-								alt="logo"
+								src={'./img/video-b.svg'}
+								alt="видеонаблюдение"
 								width={150}
 								height={150}
 								style={{

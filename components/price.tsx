@@ -29,7 +29,7 @@ export default function Price() {
 						<div className="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<Image
-									src={'/img/internet.svg'}
+									src={'./img/internet.svg'}
 									alt="количество устройств"
 									width={50}
 									height={50}
@@ -42,7 +42,7 @@ export default function Price() {
 						<div className="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<Image
-									src={'/img/ruble.svg'}
+									src={'./img/ruble.svg'}
 									alt="стоимость"
 									width={40}
 									height={40}
@@ -83,7 +83,7 @@ export default function Price() {
 						<div className="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<Image
-									src={'/img/internet.svg'}
+									src={'./img/internet.svg'}
 									alt="количество устройств"
 									width={50}
 									height={50}
@@ -96,7 +96,7 @@ export default function Price() {
 						<div className="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<Image
-									src={'/img/ruble.svg'}
+									src={'./img/ruble.svg'}
 									alt="стоимость"
 									width={40}
 									height={40}
@@ -131,7 +131,7 @@ export default function Price() {
 						<div className="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<Image
-									src={'/img/internet.svg'}
+									src={'./img/internet.svg'}
 									alt="количество устройств"
 									width={50}
 									height={50}
@@ -144,7 +144,7 @@ export default function Price() {
 						<div className="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<Image
-									src={'/img/ruble.svg'}
+									src={'./img/ruble.svg'}
 									alt="стоимость"
 									width={40}
 									height={40}

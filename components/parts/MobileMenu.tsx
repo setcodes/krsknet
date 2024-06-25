@@ -28,8 +28,8 @@ export default function MobileMenu() {
 		setOpen((prevState) => !prevState);
 	};
 	return (
-		<div className="flex xl:hidden">
-			<Drawer open={open} onOpenChange={setOpen}>
+		<div className="flex xl:hidden ">
+			<Drawer open={open} onOpenChange={setOpen} modal={false}>
 				<DrawerTrigger
 					// variant={'ghost'}
 					className="flex text-1xl uppercase border-2 rounded-lg border-red-700 py-7 px-5"
@@ -45,21 +45,29 @@ export default function MobileMenu() {
 							{/* <NavigationCol onOpenChange={setOpen} /> */}
 							<ul className="flex flex-col justify-center lg:justify-start gap-5 text-2xl font-light  uppercase">
 								<li>
-									<Link href={'#PRICE'} onClick={toggleClose} passHref={true}>
+									<Link href={'#PRICE'} onClick={toggleClose}>
 										Тарифы
 									</Link>
 								</li>
 								<li>
-									<Link href={'#STOCKS'}>Акции</Link>
+									<Link href={'#STOCKS'} onClick={toggleClose}>
+										Акции
+									</Link>
 								</li>
 								<li>
-									<Link href={'#SERVICES'}>Услуги</Link>
+									<Link href={'#SERVICES'} onClick={toggleClose}>
+										Услуги
+									</Link>
 								</li>
 								<li>
-									<Link href={'#QA'}>Вопросы</Link>
+									<Link href={'#QA'} onClick={toggleClose}>
+										Вопросы
+									</Link>
 								</li>
 								<li>
-									<Link href={'#FOOTER'}>Контакты</Link>
+									<Link href={'#FOOTER'} onClick={toggleClose}>
+										Контакты
+									</Link>
 								</li>
 							</ul>
 							<div className="border-b-2 border-borderWhiteOrBlack my-10"></div>

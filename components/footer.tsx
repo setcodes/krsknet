@@ -13,7 +13,7 @@ export default function Footer() {
 				<div className="w-full lg:w-2/3">
 					<div className="mb-10">
 						<Image
-							src={'/img/logo-white.svg'}
+							src={'./img/logo-white.svg'}
 							alt="KRSKNET"
 							width={200}
 							height={100}
@@ -29,8 +29,8 @@ export default function Footer() {
 						<div>
 							<Link href={'https://t.me/+-r49PLzVattiY2Qy'} target="_blank">
 								<Image
-									src={'/img/telegram.png'}
-									alt="hero"
+									src={'./img/telegram.png'}
+									alt="telegram"
 									width={50}
 									height={50}
 								/>
@@ -42,8 +42,8 @@ export default function Footer() {
 								target="_blank"
 							>
 								<Image
-									src={'/img/vkontakte.png'}
-									alt="hero"
+									src={'./img/vkontakte.png'}
+									alt="vk"
 									width={50}
 									height={50}
 								/>
@@ -57,8 +57,8 @@ export default function Footer() {
 				<div className="w-full flex flex-col gap-10 lg:w-2/3 xl:w-2/3">
 					<div className="flex items-center gap-5">
 						<Image
-							src={'/img/location-target.png'}
-							alt="hero"
+							src={'./img/location-target.png'}
+							alt="Регион"
 							width={50}
 							height={50}
 							sizes="(min-width: 50px)"
@@ -69,8 +69,8 @@ export default function Footer() {
 					</div>
 					<div className="flex items-center gap-5">
 						<Image
-							src={'/img/clock-target.png'}
-							alt="hero"
+							src={'./img/clock-target.png'}
+							alt="Время работы"
 							width={50}
 							height={50}
 							sizes="(min-width: 50px)"
@@ -81,8 +81,8 @@ export default function Footer() {
 					</div>
 					<div className="flex items-center gap-5">
 						<Image
-							src={'/img/phone-target.png'}
-							alt="hero"
+							src={'./img/phone-target.png'}
+							alt="Телефон"
 							width={50}
 							height={50}
 							sizes="(min-width: 50px)"

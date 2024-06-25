@@ -16,8 +16,8 @@ export default function News() {
 						<div className="flex  gap-3">
 							<div className="w-[30px]">
 								<Image
-									src={'/img/arrow-down.svg'}
-									alt="logo"
+									src={'./img/arrow-down.svg'}
+									alt="новость"
 									width={50}
 									height={50}
 									style={{
@@ -47,8 +47,8 @@ export default function News() {
 						<div className="flex gap-3">
 							<div className="w-[30px]">
 								<Image
-									src={'/img/arrow-down.svg'}
-									alt="logo"
+									src={'./img/arrow-down.svg'}
+									alt="новость"
 									width={50}
 									height={50}
 									style={{
@@ -77,8 +77,8 @@ export default function News() {
 						<div className="flex gap-3">
 							<div className="w-[30px]">
 								<Image
-									src={'/img/arrow-down.svg'}
-									alt="logo"
+									src={'./img/arrow-down.svg'}
+									alt="новость"
 									width={50}
 									height={50}
 									style={{
@@ -110,8 +110,8 @@ export default function News() {
 						<div className="flex mb-10 xl:mb-32 w-full">
 							{useTheme().theme === 'light' ? (
 								<Image
-									src={'/img/news-b-clear.svg'}
-									alt="logo"
+									src={'./img/news-b-clear.svg'}
+									alt="новый регион"
 									width={100}
 									height={100}
 									style={{
@@ -123,8 +123,8 @@ export default function News() {
 								/>
 							) : (
 								<Image
-									src={'/img/news-w-clear.svg'}
-									alt="logo"
+									src={'./img/news-w-clear.svg'}
+									alt="новый регион"
 									width={100}
 									height={100}
 									style={{

@@ -22,7 +22,7 @@ export default function HowWeWork() {
 						<div>
 							{useTheme().theme === 'light' ? (
 								<Image
-									src={'/img/step1-b.svg'}
+									src={'./img/step1-b.svg'}
 									alt="Проверьте свой адрес"
 									width={200}
 									height={200}
@@ -30,7 +30,7 @@ export default function HowWeWork() {
 								/>
 							) : (
 								<Image
-									src={'/img/step1-w.svg'}
+									src={'./img/step1-w.svg'}
 									alt="Проверьте свой адрес"
 									width={200}
 									height={200}
@@ -49,7 +49,7 @@ export default function HowWeWork() {
 						<div>
 							{useTheme().theme === 'light' ? (
 								<Image
-									src={'/img/step2-b.svg'}
+									src={'./img/step2-b.svg'}
 									alt="Ознакомьтесь c тарифами"
 									width={200}
 									height={200}
@@ -57,7 +57,7 @@ export default function HowWeWork() {
 								/>
 							) : (
 								<Image
-									src={'/img/step2-w.svg'}
+									src={'./img/step2-w.svg'}
 									alt="Ознакомьтесь c тарифами"
 									width={200}
 									height={200}
@@ -78,7 +78,7 @@ export default function HowWeWork() {
 						<div>
 							{useTheme().theme === 'light' ? (
 								<Image
-									src={'/img/step3-b.svg'}
+									src={'./img/step3-b.svg'}
 									alt="Заполните и отправьте заявку"
 									width={200}
 									height={200}
@@ -86,7 +86,7 @@ export default function HowWeWork() {
 								/>
 							) : (
 								<Image
-									src={'/img/step3-w.svg'}
+									src={'./img/step3-w.svg'}
 									alt="Заполните и отправьте заявку"
 									width={200}
 									height={200}
@@ -105,7 +105,7 @@ export default function HowWeWork() {
 						<div>
 							{useTheme().theme === 'light' ? (
 								<Image
-									src={'/img/step4-b.svg'}
+									src={'./img/step4-b.svg'}
 									alt="Ожидайте подключения"
 									width={200}
 									height={200}
@@ -113,7 +113,7 @@ export default function HowWeWork() {
 								/>
 							) : (
 								<Image
-									src={'/img/step4-w.svg'}
+									src={'./img/step4-w.svg'}
 									alt="Ожидайте подключения"
 									width={200}
 									height={200}

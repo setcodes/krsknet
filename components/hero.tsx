@@ -31,8 +31,8 @@ export default function Hero() {
 					<div className="flex flex-row gap-3 lg:gap-10">
 						<div className="flex gap-3 items-center">
 							<Image
-								src={'/img/on-button.png'}
-								alt="on"
+								src={'./img/on-button.png'}
+								alt="КАЧЕСТВО"
 								width={50}
 								height={50}
 							/>
@@ -40,8 +40,8 @@ export default function Hero() {
 						</div>
 						<div className="flex gap-3 items-center">
 							<Image
-								src={'/img/on-button.png'}
-								alt="on"
+								src={'./img/on-button.png'}
+								alt="НАДЕЖНОСТЬ"
 								width={50}
 								height={50}
 							/>
@@ -54,8 +54,8 @@ export default function Hero() {
 				<div className="hidden lg:flex absolute top-20 lg:top-0 right-2 w-1/2">
 					{useTheme().theme === 'light' ? (
 						<Image
-							src={'/img/hero-black.svg'}
-							alt="hero"
+							src={'./img/hero-black.svg'}
+							alt="оператор связи"
 							width={900}
 							height={900}
 							style={{
@@ -67,8 +67,8 @@ export default function Hero() {
 						/>
 					) : (
 						<Image
-							src={'/img/hero-white-hot.svg'}
-							alt="hero"
+							src={'./img/hero-white-hot.svg'}
+							alt="оператор связи"
 							width={900}
 							height={900}
 							style={{
@@ -80,25 +80,6 @@ export default function Hero() {
 						/>
 					)}
 				</div>
-				{/* <div className="hidden md:flex md:w-4/12 px-10">
-				<div className="flex">
-					{useTheme().theme === 'light' ? (
-						<Image
-							src={'/img/hero-white.png'}
-							alt="hero"
-							width={1200}
-							height={1200}
-						/>
-					) : (
-						<Image
-							src={'/img/hero-black.png'}
-							alt="hero"
-							width={1200}
-							height={1200}
-						/>
-					)}
-				</div>
-			</div> */}
 			</div>
 		</>
 	);
