@@ -14,7 +14,7 @@ import DialogWindow from './parts/DialogWindow';
 export default function Stocks() {
 	return (
 		<>
-			<div className="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20">
+			<div className="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20 container">
 				<h3
 					id="STOCKS"
 					className="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold"
@@ -58,12 +58,47 @@ export default function Stocks() {
 										подключившегося абонента.
 									</div>
 									<div className="flex justify-center md:justify-end">
-										<Button
-											variant={'outline'}
-											className="text-1xl  rounded-2xl uppercase  font-bold border-2 border-red-700 py-10 px-4 md:px-10 mt-10 "
-										>
-											ПОЛНЫЕ УСЛОВИЯ АКЦИИ
-										</Button>
+										<DialogWindow
+											button={
+												<Button
+													variant={'outline'}
+													className="text-1xl  rounded-2xl uppercase  font-bold border-2 border-red-700 py-10 px-4 md:px-10 mt-10 "
+												>
+													ПОЛНЫЕ УСЛОВИЯ АКЦИИ
+												</Button>
+											}
+											content={
+												<>
+													<div className="flex flex-col mr-0 2xl:mr-3 w-3/3">
+														<div className="text-2xl my-5 ">
+															<span className="font-light">
+																<span className="font-bold text-red-700 mr-5">
+																	АКЦИЯ:
+																</span>
+																ПРИВЕДИ ДРУГА
+															</span>
+														</div>
+														<div className="text-2xl uppercase mb-5 text-center">
+															ПОЛНЫЕ УСЛОВИЯ АКЦИИ
+														</div>
+														<div className="text-2xl font-light mb-5">
+															Lorem ipsum, dolor sit amet consectetur
+															adipisicing elit. Quas, nostrum asperiores natus
+															atque mollitia cumque et non perspiciatis
+															laboriosam nihil, ullam maiores quisquam repellat
+															laudantium deleniti quo similique eum ipsam.
+														</div>
+														<div className="text-2xl font-light">
+															Lorem ipsum, dolor sit amet consectetur
+															adipisicing elit. Quas, nostrum asperiores natus
+															atque mollitia cumque et non perspiciatis
+															laboriosam nihil, ullam maiores quisquam repellat
+															laudantium deleniti quo similique eum ipsam.
+														</div>
+													</div>
+												</>
+											}
+										></DialogWindow>
 									</div>
 								</div>
 							</CarouselItem>
@@ -106,7 +141,7 @@ export default function Stocks() {
 																<span className="font-bold text-red-700 mr-5">
 																	АКЦИЯ:
 																</span>
-																ПРИВЕДИ ДРУГА
+																ПЕРЕЕЗД
 															</span>
 														</div>
 														<div className="text-2xl uppercase mb-5 text-center">

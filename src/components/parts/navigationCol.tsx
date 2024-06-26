@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function NavigationCol() {
 	return (
 		<>
-			<ul className="flex flex-col justify-center lg:justify-start gap-5 text-2xl font-light  uppercase">
+			<ul className="flex flex-col justify-center gap-5 text-2xl font-light  uppercase">
 				<li>
 					<Link href={'#PRICE'}>Тарифы</Link>
 				</li>

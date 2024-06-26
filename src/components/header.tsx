@@ -9,7 +9,7 @@ import Logo from './parts/Logo';
 
 export default function Header() {
 	return (
-		<div className="flex justify-between items-center w-full sticky top-0 py-5 bg-background z-50 ">
+		<div className="flex justify-between items-center  sticky top-0 py-5 bg-background z-50">
 			<div className="flex w-[150px] md:w-[200px]">
 				<Logo />
 			</div>

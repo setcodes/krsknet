@@ -29,7 +29,7 @@ export default function MobileMenu() {
 	};
 	return (
 		<div className="flex xl:hidden ">
-			<Drawer open={open} onOpenChange={setOpen} modal={false}>
+			<Drawer open={open} onOpenChange={setOpen} modal={true}>
 				<DrawerTrigger
 					// variant={'ghost'}
 					className="flex text-1xl uppercase border-2 rounded-lg border-red-700 py-7 px-5"
@@ -39,11 +39,13 @@ export default function MobileMenu() {
 
 				<DrawerContent>
 					<DrawerHeader>
-						<DrawerTitle className="my-5 text-3xl">МЕНЮ</DrawerTitle>
+						<DrawerTitle className="my-5 text-3xl text-center">
+							МЕНЮ
+						</DrawerTitle>
 
 						<DrawerDescription>
 							{/* <NavigationCol onOpenChange={setOpen} /> */}
-							<ul className="flex flex-col justify-center lg:justify-start gap-5 text-2xl font-light  uppercase">
+							<ul className="flex flex-col justify-center gap-5 text-2xl font-light text-center  uppercase mx-auto">
 								<li>
 									<Link href={'#PRICE'} onClick={toggleClose}>
 										Тарифы
@@ -70,9 +72,11 @@ export default function MobileMenu() {
 									</Link>
 								</li>
 							</ul>
-							<div className="border-b-2 border-borderWhiteOrBlack my-10"></div>
-							<Personal />
-							<ToggleTheme />
+							<div className="flex  border-b-2 border-borderWhiteOrBlack my-10"></div>
+							<div className="flex justify-center">
+								<Personal />
+								<ToggleTheme />
+							</div>
 						</DrawerDescription>
 					</DrawerHeader>
 					<DrawerFooter>

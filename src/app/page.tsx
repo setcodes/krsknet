@@ -29,7 +29,7 @@ import Footer from '@/components/footer';
 export default function Main() {
 	return (
 		<>
-			<div className="flex flex-col px-10 py-10 justify-center">
+			<div className="flex flex-col px-10 py-10 justify-center ">
 				<Header />
 				<Hero />
 				<HowWeWork />

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Button } from './ui/button';
 import { useTheme } from 'next-themes';
 import DialogForm from './parts/DialogForm';
+import Link from 'next/link';
 
 export default function VideoControl2() {
 	return (
@@ -12,7 +13,7 @@ export default function VideoControl2() {
 				<h3 className="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold">
 					ВИДЕОНАБЛЮДЕНИЕ
 				</h3>
-				<div className="flex flex-col h-full relative p-0 xl:py-44">
+				<div className="flex flex-col h-full relative p-0 xl:py-44 container">
 					<div className="flex flex-col justify-center items-center text-center h-full z-10">
 						<div className="flex  text-2xl lg:text-3xl font-light mt-10 w-9/12 xl:w-8/12">
 							<span>
@@ -32,17 +33,15 @@ export default function VideoControl2() {
 							</span>
 						</div>
 						<div className="flex justify-center items-center">
-							<DialogForm
-								button={
-									<Button
-										variant={'destructive'}
-										className="text-1xl md:text-2xl  rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-5 md:px-20 mt-10 "
-									>
-										<Cctv className="mr-5 h-10 w-10" />
-										ПОДКЛЮЧИТЬ
-									</Button>
-								}
-							></DialogForm>
+							<Link href={'http://zayavka.krsknet.ru/'} target="_blank">
+								<Button
+									variant={'destructive'}
+									className="text-1xl md:text-2xl  rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-5 md:px-20 mt-10 "
+								>
+									<Cctv className="mr-5 h-10 w-10" />
+									ПОДКЛЮЧИТЬ
+								</Button>
+							</Link>
 						</div>
 					</div>
 					<div className="hidden xl:flex absolute left-0 right-0 bottom-0 top-0 z-0">
@@ -57,7 +56,7 @@ export default function VideoControl2() {
 									height: '100%',
 									objectFit: 'fill',
 								}}
-								sizes="100vw"
+								// sizes="100vw"
 							/>
 						) : (
 							<Image

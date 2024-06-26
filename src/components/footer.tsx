@@ -88,7 +88,9 @@ export default function Footer() {
 							sizes="(min-width: 50px)"
 						/>
 						<div className="text-xl md:text-2xl font-light">
-							+7 (923) 300-99-88
+							<Link className="text-1xl 2xl:text-2xl" href={'tel:79233009988'}>
+								{'+7 (923) 300-99-88'}
+							</Link>
 						</div>
 					</div>
 				</div>

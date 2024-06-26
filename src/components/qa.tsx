@@ -17,7 +17,7 @@ export default function QA() {
 				</h3>
 			</div>
 
-			<div className="flex justify-center items-center w-full lg:w-9/12 mx-auto">
+			<div className="flex justify-center items-center w-full lg:w-9/12 mx-auto container">
 				<Accordion
 					type="multiple"
 					className="w-full text-2xl flex flex-col gap-10"

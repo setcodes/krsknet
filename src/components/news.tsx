@@ -6,7 +6,7 @@ import DialogWindow from './parts/DialogWindow';
 export default function News() {
 	return (
 		<>
-			<div className="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20">
+			<div className="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20 container">
 				<h3 className="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold">
 					НОВОСТИ
 				</h3>
