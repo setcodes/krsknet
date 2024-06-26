@@ -6,7 +6,7 @@ export default function Logo() {
 		<>
 			{useTheme().theme === 'light' ? (
 				<Image
-					src={'./img/logo-b-2.svg'}
+					src={'./img/logo-b-curve.svg'}
 					alt="KRSKNET"
 					width={200}
 					height={100}
@@ -14,7 +14,7 @@ export default function Logo() {
 				/>
 			) : (
 				<Image
-					src={'./img/logo-w-2.svg'}
+					src={'./img/logo-w-curve.svg'}
 					alt="KRSKNET"
 					width={200}
 					height={100}
