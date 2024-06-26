@@ -57,7 +57,11 @@ export default function Price() {
 						</div>
 
 						{
-							<Link href={'http://zayavka.krsknet.ru/'} target="_blank">
+							<Link
+								href={'http://zayavka.krsknet.ru/'}
+								target="_blank"
+								className="flex justify-center"
+							>
 								<Button
 									variant={'outline'}
 									className="text-1xl sm:text-2xl  rounded-xl uppercase font-bold border-2 border-red-700 py-10 px-20 mt-10"
@@ -72,7 +76,7 @@ export default function Price() {
 							<div className="text-1xl lg:text-2xl text-white">PON-25</div>
 							<Badge
 								variant="outline"
-								className="text-1xl lg:text-2xl border-white font-light px-4 xl:px-5 text-white "
+								className="text-1xl border-white font-light px-4 xl:px-5 text-white "
 							>
 								ПОПУЛЯРНЫЙ
 							</Badge>
@@ -113,7 +117,11 @@ export default function Price() {
 								Руб. Месяц
 							</div>
 						</div>
-						<Link href={'http://zayavka.krsknet.ru/'} target="_blank">
+						<Link
+							href={'http://zayavka.krsknet.ru/'}
+							target="_blank"
+							className="flex justify-center"
+						>
 							<Button
 								variant={'destructive'}
 								className="text-1xl sm:text-2xl  rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-20 mt-10"
@@ -162,7 +170,11 @@ export default function Price() {
 								Руб. Месяц
 							</div>
 						</div>
-						<Link href={'http://zayavka.krsknet.ru/'} target="_blank">
+						<Link
+							href={'http://zayavka.krsknet.ru/'}
+							target="_blank"
+							className="flex justify-center"
+						>
 							<Button
 								variant={'outline'}
 								className="text-1xl sm:text-2xl  rounded-xl uppercase font-bold border-2 border-red-700 py-10 px-20 mt-10"

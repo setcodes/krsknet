@@ -1,10 +1,6 @@
-// const isProd = process.env.NODE_ENV === 'production';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	// output: 'export',
-	// crossOrigin: 'anonymous',
-	// assetPrefix: isProd ? 'https://setcodes.github.io/krsknet' : undefined,
+	output: 'export',
 	webpack(config) {
 		config.module.rules.push({
 			test: /\.svg$/,

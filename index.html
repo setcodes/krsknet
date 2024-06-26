@@ -33,46 +33,35 @@
 		/>
 		<link
 			rel="stylesheet"
-			href="./next/static/css/6c19099a25619685.css"
-			crossorigin="anonymous"
+			href="./next/static/css/4c03f3033927828a.css"
 			data-precedence="next"
 		/>
 		<link
 			rel="preload"
 			as="script"
 			fetchPriority="low"
-			href="./next/static/chunks/webpack-92b425aae6750391.js"
-			crossorigin=""
+			href="./next/static/chunks/webpack-2462c16ef07b017f.js"
 		/>
 		<script
 			src="./next/static/chunks/fd9d1056-82fc2a82826c61b9.js"
 			async=""
-			crossorigin=""
 		></script>
-		<script
-			src="./next/static/chunks/23-85d97d9d7a1616c6.js"
-			async=""
-			crossorigin=""
-		></script>
+		<script src="./next/static/chunks/23-85d97d9d7a1616c6.js" async=""></script>
 		<script
 			src="./next/static/chunks/main-app-ffc173cd344113ec.js"
 			async=""
-			crossorigin=""
 		></script>
 		<script
-			src="./next/static/chunks/183-4487d3f48de9b8df.js"
+			src="./next/static/chunks/797-2b042037ed6f3e66.js"
 			async=""
-			crossorigin=""
 		></script>
 		<script
-			src="./next/static/chunks/app/page-3d70f6e92b31a877.js"
+			src="./next/static/chunks/app/page-84778fa9ef34d3c2.js"
 			async=""
-			crossorigin=""
 		></script>
 		<script
 			src="./next/static/chunks/app/layout-5c620d474beb90ff.js"
 			async=""
-			crossorigin=""
 		></script>
 		<title>KRSKNET</title>
 		<meta
@@ -80,11 +69,10 @@
 			content="Интернет в частном секторе Красноярского края"
 		/>
 		<meta name="keywords" content="Интернет" />
-		<link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="169x174" />
 		<meta name="next-size-adjust" />
 		<script
 			src="./next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
-			crossorigin="anonymous"
 			nomodule=""
 		></script>
 	</head>
@@ -115,7 +103,7 @@
 		</script>
 		<div class="flex flex-col px-10 py-10 justify-center">
 			<div
-				class="flex justify-between items-center w-full sticky top-0 py-5 bg-background z-50"
+				class="flex justify-between items-center sticky top-0 py-5 bg-background z-50"
 			>
 				<div class="flex w-[150px] md:w-[200px]">
 					<img
@@ -245,16 +233,13 @@
 						[Пассивная оптическая сеть]
 					</h2>
 					<div class="w-50 flex justify-center sm:justify-start mb-2 lg:mb-10">
-						<button
-							class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-destructive-foreground hover:bg-destructive/90 h-10 text-1xl sm:text-2xl bg-red-700 rounded-xl uppercase font-bold border-2 py-10 px-20"
-							type="button"
-							aria-haspopup="dialog"
-							aria-expanded="false"
-							aria-controls="radix-:R1kj7qja:"
-							data-state="closed"
+						<a target="_blank" href="http://zayavka.krsknet.ru/"
+							><button
+								class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-destructive-foreground hover:bg-destructive/90 h-10 text-1xl sm:text-2xl bg-red-700 rounded-xl uppercase font-bold border-2 py-10 px-20"
+							>
+								ПОДКЛЮЧИТЬ
+							</button></a
 						>
-							ПОДКЛЮЧИТЬ
-						</button>
 					</div>
 					<div class="flex flex-row gap-3 lg:gap-10">
 						<div class="flex gap-3 items-center">
@@ -287,17 +272,21 @@
 					<img
 						alt="оператор связи"
 						loading="lazy"
-						width="900"
-						height="900"
+						width="1200"
+						height="1200"
 						decoding="async"
 						data-nimg="1"
-						class="md:w-12"
-						style="color: transparent; width: 100%; height: 100%"
+						style="
+							color: transparent;
+							width: 100%;
+							height: 100%;
+							max-width: 1000px;
+						"
 						src="./img/hero-white-hot.svg"
 					/>
 				</div>
 			</div>
-			<div class="flex flex-col justify-center gap-5">
+			<div class="flex flex-col justify-center gap-5 container">
 				<h3
 					id="HWW"
 					class="flex justify-center items-center text-3xl md:text-5xl my-20 font-bold"
@@ -397,7 +386,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20">
+			<div
+				class="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20 container"
+			>
 				<h3
 					id="PRICE"
 					class="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold"
@@ -412,14 +403,12 @@
 							<div class="text-1xl lg:text-2xl">PON-15</div>
 						</div>
 						<div class="flex justify-center">
-							<div class="text-2xl lg:text-3xl">
+							<div class="text-1xl lg:text-3xl">
 								до <span class="text-3xl xl:text-7xl">15</span> Мбит/сек
 							</div>
 						</div>
 						<div class="border border-borderWhiteOrBlack"></div>
-						<div
-							class="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10"
-						>
+						<div class="flex gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<img
 									alt="количество устройств"
@@ -432,13 +421,11 @@
 									src="./img/internet.svg"
 								/>
 							</div>
-							<div class="text-2xl font-light text-center">
+							<div class="text-1xl lg:text-2xl font-light text-center">
 								Для 1-го устройства
 							</div>
 						</div>
-						<div
-							class="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10"
-						>
+						<div class="flex gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<img
 									alt="стоимость"
@@ -451,20 +438,21 @@
 									src="./img/ruble.svg"
 								/>
 							</div>
-							<div class="text-2xl font-light text-center">
-								<span class="text-4xl font-bold mr-2">1000</span> Руб/Месяц
+							<div class="text-1xl lg:text-2xl font-light text-center">
+								<span class="text-2xl lg:text-4xl font-bold mr-2">1000</span>
+								<!-- -->Руб. Месяц
 							</div>
 						</div>
-						<button
-							class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background hover:bg-accent hover:text-accent-foreground h-10 text-1xl sm:text-2xl rounded-xl uppercase font-bold border-2 border-red-700 py-10 px-20 mt-10"
-							type="button"
-							aria-haspopup="dialog"
-							aria-expanded="false"
-							aria-controls="radix-:Rcp37qja:"
-							data-state="closed"
+						<a
+							target="_blank"
+							class="flex justify-center"
+							href="http://zayavka.krsknet.ru/"
+							><button
+								class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background hover:bg-accent hover:text-accent-foreground h-10 text-1xl sm:text-2xl rounded-xl uppercase font-bold border-2 border-red-700 py-10 px-20 mt-10"
+							>
+								ПОДКЛЮЧИТЬ
+							</button></a
 						>
-							ПОДКЛЮЧИТЬ
-						</button>
 					</div>
 					<div
 						class="flex flex-col w-full gap-5 lg:gap-10 rounded-2xl py-10 px-10 w-12/12 lg:w-4/12 bg-gradient-to-b from-red-700 to-zinc-800 to-90%"
@@ -472,20 +460,18 @@
 						<div class="flex justify-between items-center mb-5">
 							<div class="text-1xl lg:text-2xl text-white">PON-25</div>
 							<div
-								class="inline-flex items-center rounded-full border py-0.5 text-xs transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-white font-light px-3 xl:px-5 text-white"
+								class="inline-flex items-center rounded-full border py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-1xl border-white font-light px-4 xl:px-5 text-white"
 							>
 								ПОПУЛЯРНЫЙ
 							</div>
 						</div>
 						<div class="flex justify-center">
-							<div class="text-2xl lg:text-3xl text-white">
+							<div class="text-1xl lg:text-3xl text-white">
 								до <span class="text-3xl xl:text-7xl">25</span> Мбит/сек
 							</div>
 						</div>
 						<div class="border border-white"></div>
-						<div
-							class="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10"
-						>
+						<div class="flex gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<img
 									alt="количество устройств"
@@ -498,13 +484,13 @@
 									src="./img/internet.svg"
 								/>
 							</div>
-							<div class="text-2xl font-light text-white text-center">
+							<div
+								class="text-1xl lg:text-2xl font-light text-white text-center"
+							>
 								Для 1-2x устройств
 							</div>
 						</div>
-						<div
-							class="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10"
-						>
+						<div class="flex gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<img
 									alt="стоимость"
@@ -517,20 +503,24 @@
 									src="./img/ruble.svg"
 								/>
 							</div>
-							<div class="text-2xl font-light text-white text-center">
-								<span class="text-4xl font-bold mr-2">1200</span> Руб/Месяц
+							<div
+								class="text-1xl lg:text-2xl font-light text-white text-center"
+							>
+								<span class="text-2xl lg:text-4xl font-bold mr-2"
+									>1200<!-- --> </span
+								>Руб. Месяц
 							</div>
 						</div>
-						<button
-							class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-destructive-foreground hover:bg-destructive/90 h-10 text-1xl sm:text-2xl rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-20 mt-10"
-							type="button"
-							aria-haspopup="dialog"
-							aria-expanded="false"
-							aria-controls="radix-:Rd937qja:"
-							data-state="closed"
+						<a
+							target="_blank"
+							class="flex justify-center"
+							href="http://zayavka.krsknet.ru/"
+							><button
+								class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-destructive-foreground hover:bg-destructive/90 h-10 text-1xl sm:text-2xl rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-20 mt-10"
+							>
+								ПОДКЛЮЧИТЬ
+							</button></a
 						>
-							ПОДКЛЮЧИТЬ
-						</button>
 					</div>
 					<div
 						class="flex flex-col w-full gap-5 lg:gap-10 border border-borderKrsknet rounded-xl py-10 px-10 w-12/12 lg:w-4/12"
@@ -545,7 +535,7 @@
 						</div>
 						<div class="border border-borderWhiteOrBlack"></div>
 						<div
-							class="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10"
+							class="flex flex-row gap-2 xl:gap-0 justify-between items-center mx-10"
 						>
 							<div>
 								<img
@@ -559,13 +549,11 @@
 									src="./img/internet.svg"
 								/>
 							</div>
-							<div class="text-2xl font-light text-center">
+							<div class="text-1xl lg:text-2xl font-light text-center">
 								Для 2-3x устройств
 							</div>
 						</div>
-						<div
-							class="flex flex-col xl:flex-row gap-2 xl:gap-0 justify-between items-center mx-10"
-						>
+						<div class="flex gap-2 xl:gap-0 justify-between items-center mx-10">
 							<div>
 								<img
 									alt="стоимость"
@@ -578,20 +566,22 @@
 									src="./img/ruble.svg"
 								/>
 							</div>
-							<div class="text-2xl font-light text-center">
-								<span class="text-4xl font-bold mr-2">1500</span> Руб/Месяц
+							<div class="text-1xl lg:text-2xl font-light text-center">
+								<span class="text-2xl lg:text-4xl font-bold mr-2"
+									>1500<!-- --> </span
+								>Руб. Месяц
 							</div>
 						</div>
-						<button
-							class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background hover:bg-accent hover:text-accent-foreground h-10 text-1xl sm:text-2xl rounded-xl uppercase font-bold border-2 border-red-700 py-10 px-20 mt-10"
-							type="button"
-							aria-haspopup="dialog"
-							aria-expanded="false"
-							aria-controls="radix-:Rdp37qja:"
-							data-state="closed"
+						<a
+							target="_blank"
+							class="flex justify-center"
+							href="http://zayavka.krsknet.ru/"
+							><button
+								class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background hover:bg-accent hover:text-accent-foreground h-10 text-1xl sm:text-2xl rounded-xl uppercase font-bold border-2 border-red-700 py-10 px-20 mt-10"
+							>
+								ПОДКЛЮЧИТЬ
+							</button></a
 						>
-							ПОДКЛЮЧИТЬ
-						</button>
 					</div>
 				</div>
 				<div
@@ -608,7 +598,7 @@
 				>
 					ВИДЕОНАБЛЮДЕНИЕ
 				</h3>
-				<div class="flex flex-col h-full relative p-0 xl:py-44">
+				<div class="flex flex-col h-full relative p-0 xl:py-44 container">
 					<div
 						class="flex flex-col justify-center items-center text-center h-full z-10"
 					>
@@ -633,37 +623,34 @@
 							>
 						</div>
 						<div class="flex justify-center items-center">
-							<button
-								class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-destructive-foreground hover:bg-destructive/90 h-10 text-1xl md:text-2xl rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-5 md:px-20 mt-10"
-								type="button"
-								aria-haspopup="dialog"
-								aria-expanded="false"
-								aria-controls="radix-:R6pb7qja:"
-								data-state="closed"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									class="lucide lucide-cctv mr-5 h-10 w-10"
+							<a target="_blank" href="http://zayavka.krsknet.ru/"
+								><button
+									class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-destructive-foreground hover:bg-destructive/90 h-10 text-1xl md:text-2xl rounded-2xl uppercase bg-red-700 font-bold border-2 border-red-700 py-10 px-5 md:px-20 mt-10"
 								>
-									<path
-										d="M16.75 12h3.632a1 1 0 0 1 .894 1.447l-2.034 4.069a1 1 0 0 1-1.708.134l-2.124-2.97"
-									></path>
-									<path
-										d="M17.106 9.053a1 1 0 0 1 .447 1.341l-3.106 6.211a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.92 2.92 0 0 1 3.92-1.3z"
-									></path>
-									<path d="M2 19h3.76a2 2 0 0 0 1.8-1.1L9 15"></path>
-									<path d="M2 21v-4"></path>
-									<path d="M7 9h.01"></path></svg
-								>ПОДКЛЮЧИТЬ
-							</button>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										class="lucide lucide-cctv mr-5 h-10 w-10"
+									>
+										<path
+											d="M16.75 12h3.632a1 1 0 0 1 .894 1.447l-2.034 4.069a1 1 0 0 1-1.708.134l-2.124-2.97"
+										></path>
+										<path
+											d="M17.106 9.053a1 1 0 0 1 .447 1.341l-3.106 6.211a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.92 2.92 0 0 1 3.92-1.3z"
+										></path>
+										<path d="M2 19h3.76a2 2 0 0 0 1.8-1.1L9 15"></path>
+										<path d="M2 21v-4"></path>
+										<path d="M7 9h.01"></path></svg
+									>ПОДКЛЮЧИТЬ
+								</button></a
+							>
 						</div>
 					</div>
 					<div
@@ -687,7 +674,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20">
+			<div
+				class="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20 container"
+			>
 				<h3
 					class="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold"
 				>
@@ -847,7 +836,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20">
+			<div
+				class="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20 container"
+			>
 				<h3
 					id="STOCKS"
 					class="flex justify-center items-center text-2xl md:text-5xl my-20 font-bold"
@@ -898,6 +889,11 @@
 										<div class="flex justify-center md:justify-end">
 											<button
 												class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background hover:bg-accent hover:text-accent-foreground h-10 text-1xl rounded-2xl uppercase font-bold border-2 border-red-700 py-10 px-4 md:px-10 mt-10"
+												type="button"
+												aria-haspopup="dialog"
+												aria-expanded="false"
+												aria-controls="radix-:Rqpr7qja:"
+												data-state="closed"
 											>
 												ПОЛНЫЕ УСЛОВИЯ АКЦИИ
 											</button>
@@ -995,7 +991,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20">
+			<div
+				class="flex flex-col justify-center gap-5 mt-10 px-0 xl:px-20 container"
+			>
 				<h3
 					id="SERVICES"
 					class="flex justify-center items-center text-2xl lg:text-5xl my-20 font-bold"
@@ -1137,7 +1135,9 @@
 					ВОПРОСЫ И ОТВЕТЫ
 				</h3>
 			</div>
-			<div class="flex justify-center items-center w-full lg:w-9/12 mx-auto">
+			<div
+				class="flex justify-center items-center w-full lg:w-9/12 mx-auto container"
+			>
 				<div
 					class="w-full text-2xl flex flex-col gap-10"
 					data-orientation="vertical"
@@ -1338,7 +1338,7 @@
 			</div>
 			<div class="w-full lg:w-1/3 flex justify-center lg:justify-start">
 				<ul
-					class="flex flex-col justify-center lg:justify-start gap-5 text-2xl font-light uppercase"
+					class="flex flex-col justify-center gap-5 text-2xl font-light uppercase"
 				>
 					<li><a href="#PRICE">Тарифы</a></li>
 					<li><a href="#STOCKS">Акции</a></li>
@@ -1387,7 +1387,11 @@
 						style="color: transparent"
 						src="./img/phone-target.svg"
 					/>
-					<div class="text-xl md:text-2xl font-light">+7 (923) 300-99-88</div>
+					<div class="text-xl md:text-2xl font-light">
+						<a class="text-1xl 2xl:text-2xl" href="tel:79233009988"
+							>+7 (923) 300-99-88</a
+						>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1398,8 +1402,7 @@
 			<!-- -->2024
 		</div>
 		<script
-			src="./next/static/chunks/webpack-92b425aae6750391.js"
-			crossorigin=""
+			src="./next/static/chunks/webpack-2462c16ef07b017f.js"
 			async=""
 		></script>
 		<script>
@@ -1409,25 +1412,25 @@
 		<script>
 			self.__next_f.push([
 				1,
-				'1:HL["./next/static/media/36114c830327f6f5-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n2:HL["./next/static/media/c16f11e552f11335-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n3:HL["./next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n4:HL["./next/static/media/fa31aecb67ad78dd-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n5:HL["./next/static/css/6c19099a25619685.css","style",{"crossOrigin":""}]\n',
+				'1:HL["./next/static/media/36114c830327f6f5-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n2:HL["./next/static/media/c16f11e552f11335-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n3:HL["./next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n4:HL["./next/static/media/fa31aecb67ad78dd-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n5:HL["./next/static/css/4c03f3033927828a.css","style"]\n',
 			]);
 		</script>
 		<script>
 			self.__next_f.push([
 				1,
-				'6:I[5751,[],""]\n8:I[6513,[],"ClientPageRoot"]\n9:I[9003,["183","static/chunks/183-4487d3f48de9b8df.js","931","static/chunks/app/page-3d70f6e92b31a877.js"],"default"]\na:I[4258,["185","static/chunks/app/layout-5c620d474beb90ff.js"],"ThemeProvider"]\nb:I[9275,[],""]\nc:I[1343,[],""]\ne:I[6130,[],""]\nf:[]\n',
+				'6:I[5751,[],""]\n8:I[6513,[],"ClientPageRoot"]\n9:I[8727,["797","static/chunks/797-2b042037ed6f3e66.js","931","static/chunks/app/page-84778fa9ef34d3c2.js"],"default"]\na:I[4258,["185","static/chunks/app/layout-5c620d474beb90ff.js"],"ThemeProvider"]\nb:I[9275,[],""]\nc:I[1343,[],""]\ne:I[6130,[],""]\nf:[]\n',
 			]);
 		</script>
 		<script>
 			self.__next_f.push([
 				1,
-				'0:[[["$","link","0",{"rel":"stylesheet","href":"./next/static/css/6c19099a25619685.css","precedence":"next","crossOrigin":"anonymous"}]],["$","$L6",null,{"buildId":"1hTqUEN2_MG06PzRhMSaJ","assetPrefix":"","initialCanonicalUrl":"/","initialTree":["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"initialSeedData":["",{"children":["__PAGE__",{},[["$L7",["$","$L8",null,{"props":{"params":{},"searchParams":{}},"Component":"$9"}]],null],null]},[["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"__className_4ccd52","style":{"scrollBehavior":"smooth"},"children":[["$","head",null,{}],["$","body",null,{"children":["$","$La",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$Lb",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lc",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\\"Segoe UI\\",Roboto,Helvetica,Arial,sans-serif,\\"Apple Color Emoji\\",\\"Segoe UI Emoji\\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]}]]}],null],null],"couldBeIntercepted":false,"initialHead":[false,"$Ld"],"globalErrorComponent":"$e","missingSlots":"$Wf"}]]\n',
+				'0:[[["$","link","0",{"rel":"stylesheet","href":"./next/static/css/4c03f3033927828a.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L6",null,{"buildId":"6U8xBV1rXkcwLR3bQF-CM","assetPrefix":"","initialCanonicalUrl":"/","initialTree":["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"initialSeedData":["",{"children":["__PAGE__",{},[["$L7",["$","$L8",null,{"props":{"params":{},"searchParams":{}},"Component":"$9"}]],null],null]},[["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"__className_4ccd52","style":{"scrollBehavior":"smooth"},"children":[["$","head",null,{}],["$","body",null,{"children":["$","$La",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$Lb",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lc",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\\"Segoe UI\\",Roboto,Helvetica,Arial,sans-serif,\\"Apple Color Emoji\\",\\"Segoe UI Emoji\\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]}]]}],null],null],"couldBeIntercepted":false,"initialHead":[false,"$Ld"],"globalErrorComponent":"$e","missingSlots":"$Wf"}]]\n',
 			]);
 		</script>
 		<script>
 			self.__next_f.push([
 				1,
-				'd:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"KRSKNET"}],["$","meta","3",{"name":"description","content":"Интернет в частном секторе Красноярского края"}],["$","meta","4",{"name":"keywords","content":"Интернет"}],["$","link","5",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","6",{"name":"next-size-adjust"}]]\n7:null\n',
+				'd:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"KRSKNET"}],["$","meta","3",{"name":"description","content":"Интернет в частном секторе Красноярского края"}],["$","meta","4",{"name":"keywords","content":"Интернет"}],["$","link","5",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"169x174"}],["$","meta","6",{"name":"next-size-adjust"}]]\n7:null\n',
 			]);
 		</script>
 	</body>

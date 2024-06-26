@@ -1,6 +1,5 @@
 import { Menu } from 'lucide-react';
 import { Button } from '../ui/button';
-import { Separator } from '@/components/ui/separator';
 
 import {
 	Drawer,
@@ -15,28 +14,29 @@ import {
 import Navigation from './Navigation';
 import Personal from './Personal';
 import ToggleTheme from './ToggleTheme';
-import NavigationCol from './navigationCol';
 import { useState } from 'react';
-import Link from 'next/link';
-// import { useRouter } from 'next/router';
 
 export default function MobileMenu() {
 	const [open, setOpen] = useState(false);
-	// const router = useRouter();
 
-	const toggleClose = () => {
+	const toggleClose = (id: string) => {
 		setOpen((prevState) => !prevState);
+		setTimeout(() => {
+			const el = document.getElementById(id);
+			el?.scrollIntoView({
+				behavior: 'smooth',
+				block: 'start',
+				inline: 'nearest',
+			});
+			console.log(1);
+		}, 400);
 	};
 	return (
 		<div className="flex xl:hidden ">
-			<Drawer open={open} onOpenChange={setOpen} modal={true}>
-				<DrawerTrigger
-					// variant={'ghost'}
-					className="flex text-1xl uppercase border-2 rounded-lg border-red-700 py-7 px-5"
-				>
+			<Drawer open={open} onOpenChange={setOpen}>
+				<DrawerTrigger className="flex text-1xl uppercase border-2 rounded-lg border-red-700 py-7 px-5">
 					<Menu className="mr-2 h-6 w-6" /> МЕНЮ
 				</DrawerTrigger>
-
 				<DrawerContent>
 					<DrawerHeader>
 						<DrawerTitle className="my-5 text-3xl text-center">
@@ -44,33 +44,12 @@ export default function MobileMenu() {
 						</DrawerTitle>
 
 						<DrawerDescription>
-							{/* <NavigationCol onOpenChange={setOpen} /> */}
 							<ul className="flex flex-col justify-center gap-5 text-2xl font-light text-center  uppercase mx-auto">
-								<li>
-									<Link href={'#PRICE'} onClick={toggleClose}>
-										Тарифы
-									</Link>
-								</li>
-								<li>
-									<Link href={'#STOCKS'} onClick={toggleClose}>
-										Акции
-									</Link>
-								</li>
-								<li>
-									<Link href={'#SERVICES'} onClick={toggleClose}>
-										Услуги
-									</Link>
-								</li>
-								<li>
-									<Link href={'#QA'} onClick={toggleClose}>
-										Вопросы
-									</Link>
-								</li>
-								<li>
-									<Link href={'#FOOTER'} onClick={toggleClose}>
-										Контакты
-									</Link>
-								</li>
+								<li onClick={() => toggleClose('PRICE')}>Тарифы</li>
+								<li onClick={() => toggleClose('STOCKS')}>Акции</li>
+								<li onClick={() => toggleClose('SERVICES')}>Услуги</li>
+								<li onClick={() => toggleClose('QA')}>Вопросы</li>
+								<li onClick={() => toggleClose('FOOTER')}>Контакты</li>
 							</ul>
 							<div className="flex  border-b-2 border-borderWhiteOrBlack my-10"></div>
 							<div className="flex justify-center">
