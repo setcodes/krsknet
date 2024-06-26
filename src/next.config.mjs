@@ -3,6 +3,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	output: 'export',
+	crossOrigin: 'anonymous',
 	// assetPrefix: isProd ? 'https://setcodes.github.io/krsknet' : undefined,
 	webpack(config) {
 		config.module.rules.push({
