@@ -13,7 +13,7 @@ export default function Footer() {
 				<div className="w-full lg:w-2/3">
 					<div className="mb-10">
 						<Image
-							src={'./img/logo-white.svg'}
+							src={'./img/logo-w-2.svg'}
 							alt="KRSKNET"
 							width={200}
 							height={100}

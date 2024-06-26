@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 84.46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #eb2324;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        font-family: UniSansBold, UniSansBold;
+        font-size: 46px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #eb2324;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <g class="cls-5">
+        <text class="cls-2" transform="translate(0 72.77)"><tspan x="0" y="0">KRS</tspan><tspan class="cls-6" x="84.32" y="0">K</tspan></text>
+        <text class="cls-3" transform="translate(116.59 72.77)"><tspan x="0" y="0">N</tspan></text>
+        <text class="cls-3" transform="translate(147.69 72.77)"><tspan x="0" y="0">E</tspan></text>
+        <text class="cls-4" transform="translate(171.83 72.77)"><tspan x="0" y="0">T</tspan></text>
+      </g>
+      <path class="cls-1" d="M120.98,27.32c7.73-1.62,15.68-5.47,22.17-9.78,5.71-3.79,10.32-8.67,14.54-14.34.19-.26.57-.26.77,0,9.5,12.64,22.15,19.66,35.48,25.41"/>
+    </g>
+  </g>
+</svg>
