@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import Iframe from 'react-iframe';
 import {
 	Dialog,
 	DialogContent,
@@ -18,13 +19,11 @@ export default function DialogForm({ button }: IDialogForm) {
 
 				<DialogContent className="min-w-full h-screen px-10 py-10  ">
 					<div className="">
-						<iframe
-							style={{
-								width: '100%',
-								height: '100%',
-							}}
-							src="http://zayavka.krsknet.ru/"
-						></iframe>
+						<Iframe
+							url="http://zayavka.krsknet.ru/"
+							width="100%"
+							height="100%"
+						></Iframe>
 					</div>
 				</DialogContent>
 			</Dialog>
