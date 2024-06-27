@@ -16,14 +16,21 @@ export default function Header() {
 			<div className="hidden xl:flex">
 				<Navigation />
 			</div>
-			<div className="hidden xl:flex items-center">
-				<Contact />
+			<div className="flex gap-10">
+				<div className="hidden xl:flex items-center">
+					<Contact />
+				</div>
+				<div className="hidden xl:flex items-center gap-5">
+					<Personal />
+					<ToggleTheme />
+				</div>
 			</div>
-			<div className="hidden xl:flex items-center gap-5">
-				<Personal />
-				<ToggleTheme />
+			<div className="flex items-center ml-3 xl:hidden">
+				<MobileMenu />
+				<div className="xl:hidden">
+					<ToggleTheme />
+				</div>
 			</div>
-			<MobileMenu />
 		</div>
 	);
 }

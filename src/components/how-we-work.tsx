@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function HowWeWork() {
 	return (
 		<>
-			<div className="flex flex-col justify-center gap-5 container">
+			<div className="flex flex-col justify-center gap-5 w-full lg:container">
 				<h3
 					id="HWW"
 					className="flex justify-center items-center text-3xl md:text-5xl my-20 font-bold"

@@ -19,8 +19,10 @@ import { useState } from 'react';
 export default function MobileMenu() {
 	const [open, setOpen] = useState(false);
 
-	const toggleClose = (id: string) => {
+	const toggleClose = () => {
 		setOpen((prevState) => !prevState);
+	};
+	const scrollToId = (id: string) => {
 		setTimeout(() => {
 			const el = document.getElementById(id);
 			el?.scrollIntoView({
@@ -28,11 +30,10 @@ export default function MobileMenu() {
 				block: 'start',
 				inline: 'nearest',
 			});
-			console.log(1);
 		}, 400);
 	};
 	return (
-		<div className="flex xl:hidden ">
+		<div className="flex xl:hidden z-50">
 			<Drawer open={open} onOpenChange={setOpen}>
 				<DrawerTrigger className="flex text-1xl uppercase border-2 rounded-lg border-red-700 py-7 px-5">
 					<Menu className="mr-2 h-6 w-6" /> МЕНЮ
@@ -45,11 +46,11 @@ export default function MobileMenu() {
 
 						<DrawerDescription>
 							<ul className="flex flex-col justify-center gap-5 text-2xl font-light text-center  uppercase mx-auto">
-								<li onClick={() => toggleClose('PRICE')}>Тарифы</li>
-								<li onClick={() => toggleClose('STOCKS')}>Акции</li>
-								<li onClick={() => toggleClose('SERVICES')}>Услуги</li>
-								<li onClick={() => toggleClose('QA')}>Вопросы</li>
-								<li onClick={() => toggleClose('FOOTER')}>Контакты</li>
+								<li onClick={(scrollToId('PRICE'), toggleClose)}>Тарифы</li>
+								<li onClick={(scrollToId('STOCKS'), toggleClose)}>Акции</li>
+								<li onClick={(scrollToId('SERVICES'), toggleClose)}>Услуги</li>
+								<li onClick={(scrollToId('QA'), toggleClose)}>Вопросы</li>
+								<li onClick={(scrollToId('FOOTER'), toggleClose)}>Контакты</li>
 							</ul>
 							<div className="flex  border-b-2 border-borderWhiteOrBlack my-10"></div>
 							<div className="flex justify-center">
